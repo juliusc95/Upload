@@ -1,0 +1,15 @@
+class ApiResources:
+    addBook = '/Library/Addbook.php'
+    deleteBook = '/Library/DeleteBook.php'
+    getBookAuthor = '/Library/GetBook.php?AuthorName=JuliusCruz'
+    githubRepo = 'https://api.github.com/user'
+    dev = 'https://dev-admin.kumuapi.com'
+    prod = 'https://admin.kumuapi.com'
+    stg = 'https://stage-admin.kumuapi.com'
+    upload = '/feed/publish'
+    sendOTP = '/user/sendverifysms'
+    getOTP = '/v1/sms/retrieve-otp-codes'
+    login = '/user/login'
+    upload = '/user/uploadmedia'
+    publish = '/feed/publish'
+

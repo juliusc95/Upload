@@ -1,0 +1,12 @@
+requests
+behave
+allure-behave
+paramiko
+bs4
+python-dotenv
+appium-python-client
+pytest
+locust
+requests_aws4auth
+delayed_assert
+faker
