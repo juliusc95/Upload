@@ -28,6 +28,7 @@ To run script and generate allure reports:
 `
 
 Generate allure report
+
 `allure serve <Absoulute path of your allure report folder>` 
 
 *Note: Select desired environment by replacing env=dev,prod or  stg*
