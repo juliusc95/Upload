@@ -17,10 +17,18 @@ This document contains upload photo functionallity in kumu dev, prod, and stagin
 
 ### Execution steps via terminal
 
+To run script 
+
+`behave -D env=dev -D otp_secret=<kumu secrect key> features/Upload.feature --no-capture --no-color
+`
+
 To run script and generate allure reports:
 
 `behave -D env=dev -D otp_secret=<kumu secrect key> features/Upload.feature --no-capture --no-color -f allure_behave.formatter:AllureFormatter -o AllureReports
 `
+
+Generate allure report
+`allure serve <Absoulute path of your allure report folder>` 
 
 *Note: Select desired environment by replacing env=dev,prod or  stg*
 
